@@ -163,7 +163,7 @@ export function Chapter3Prank({ onComplete, playPrankRevealSfx }: Props) {
                 <div className="w-2.5 h-2.5 rounded-full bg-green-500/70" />
               </div>
               <span className="font-mono text-xs text-foreground/50 flex-1 text-center tracking-wide">
-                Birthday Security System — Terminal v2.7.1
+                Boyfriend Security System — Terminal v2.7.1
               </span>
             </div>
 
