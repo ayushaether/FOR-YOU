@@ -52,7 +52,7 @@ const QUESTIONS = [
 const ANALYSIS_MESSAGES = [
   'Analysing response patterns...',
   'Comparing with 8 billion personalities...',
-  'Checking birthday happiness levels...',
+  'Checking happiness levels...',
   'Searching for someone similar...',
   'Processing uniqueness...',
   'ERROR: No identical personality found.',
@@ -202,7 +202,7 @@ export function Chapter4Quiz({ onComplete, playClickSfx }: Props) {
             <br /><br />
             We have reached one conclusion.
             <br /><br />
-            <span className="text-primary font-semibold">There is only one Anoushka.</span>
+            <span className="text-primary font-semibold">There is only one you.</span>
             <br /><br />
             And honestly... that's pretty awesome. ❤️
           </p>

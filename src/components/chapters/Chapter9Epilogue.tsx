@@ -37,35 +37,27 @@ const BOKEH = Array.from({ length: 30 }, (_, i) => ({
 const LETTER_PARAGRAPHS = [
    'One last page...',
   '',
-  "Howdy? 🤠 Ig it might be around 12:09 if not then perhaps i would have become lazy and fogot to give you this. I wanted to wish you 1st but I think I'm not? 🤔 Maybe 2nd, no? Okay!... Okay! then 3rd? Still no? 🥲 Forget it. Wishing you is imp, not ranking.",
+  "Happy Boyfriend’s Day to my favourite idiot. ❤️😭",
 
-  "You’re actually not just a friend; you’re my built-in best friend. Whenever I talk to you, even for a few minutes, my whole mood changes. I don’t know how, maybe you got some kind of powers? Hmm..🧐",
+  "I know main kabhi kabhi bohot zyada overthink karti hoon, choti choti baaton pe upset ho jaati hoon aur unnecessarily drama bhi kar deti hoon 😭.",
 
-  "No filters, no fake vibes, just you. And as an introvert, having someone like you is truly a blessing... I could've written a poem instead of this, but I don't think any poem could do you justice. Yes sirrr! I'm a poet and writer.",
+  "I’m sorry for all the times I’ve hurt you, irritated you ya tumhari patience test ki hai.",
 
-  "Well, I could have just wished you like normal ppl, like texting 'happy b'day' or posting a story. Then what would be the difference between them and me? 😮‍💨",
+  "But honestly, you mean a lot to me",
 
-  "So it's my way of wishing to special ones and this might be the last time I'm making this 🥀 (ig?). Also sorry for taking your photos without your consent 😝.",
+  "Thank you for always putting up with me, samajhne ki koshish karne ke liye, and for still being here. 🫶🏻",
 
-  "And don't start with Call me didi just cause you are 1month older than me 😒. Chachi, you may be older than me in age but you'll still be a bandariya (Monkey, cute one though). Now, say 'I'm the best!' and go enjoy your day.",
+  "I can’t promise ki main kabhi galti nahi karungi because… well, main main hoon 💀😭 but I’ll always try to do better.",
 
-  "I really don't know what else to say. I'm just grateful and ik it may kinda sound cringee? If so, really solly. I'm juust a geek I guess hehehehe!",
-
-  '',
-
-  "last thing I want to say………actually I",
+  " I can promise that I’ll keep trying to understand you, love you better and become a better person for you.",
 
   '',
 
-  "LOVE….I LOVE",
+  "last thing I want to say I LOVE UHH!!",
 
   '',
 
-  "MONEY,CASH AS MUCH AS CASH YOU CAN GIVE. Sorry jokeside",
-
-  '',
-
-  'Happy Birthday once again, Anoushka. ❤️',
+  'Happy Boyfriend’s Day, idiot. ❤️You’re stuck with me now, so good luck. 🫶😭',
 ];
 
 const PHOTO_ROTATIONS = [-3.2, 2.1, -1.8, 3.5];
@@ -391,7 +383,7 @@ export function Chapter9Epilogue({ fadeOutAudio, playGiftReadySfx, playTulipBloo
       </div>
 
       {/* ══════════════════════════════════════════════════════════
-          CREDITS — "Made with ❤️ by Aether" (appears FIRST)
+          CREDITS — "Made with ❤️ by Priyanka" (appears FIRST)
           ══════════════════════════════════════════════════════════ */}
       <AnimatePresence>
         {showCredits && (
@@ -431,7 +423,7 @@ export function Chapter9Epilogue({ fadeOutAudio, playGiftReadySfx, playTulipBloo
                   '0 2px 4px rgba(0,0,0,0.5)',
               }}
             >
-              Made by Ayush
+              Made by Priyanka
             </motion.p>
 
             {/* Subtle tagline below */}

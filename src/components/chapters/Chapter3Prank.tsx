@@ -10,14 +10,14 @@ interface Props {
 type Phase = 'scan' | 'stuck' | 'error' | 'countdown' | 'reveal';
 
 const SCAN_LINES = [
-  'Initializing Birthday Security System v2.7.1...',
+  'Initializing Security System v2.7.1...',
   'Loading global registry: 8,100,247,903 records',
   'Applying biometric filters...',
   'Cross-referencing with dimensional archives...',
-  'Querying Universe_A.birthday_registry...',
+  'Querying Universe_A.BOYFRIEND_registry...',
   'Querying Parallel_Universe_B records...',
   'Scanning alternate timelines...',
-  'Searching for: ANOUSHKA, birthday entry...',
+  'Searching for: SWASTIK, boyfriend entry...',
 ];
 
 const GLITCH_FRAMES = [
@@ -251,7 +251,7 @@ export function Chapter3Prank({ onComplete, playPrankRevealSfx }: Props) {
                 CRITICAL ERROR — CODE 0xBD_404
               </p>
               <p className="font-mono text-destructive/80 text-xs leading-relaxed">
-                ANOUSHKA_BIRTHDAY_DATA: NOT FOUND<br />
+                SWASTIK'S_DATA: NOT FOUND<br />
                 Searched: 8,100,247,903 records<br />
                 Searched: 47 alternate timelines<br />
                 Searched: 3 parallel universes<br />
@@ -260,12 +260,12 @@ export function Chapter3Prank({ onComplete, playPrankRevealSfx }: Props) {
             </div>
 
             <p className="text-foreground/60 text-sm mb-4 font-mono">
-              It appears... Anoushka was never born?😱
+              It appears... swastik was never born?😱
             </p>
 
             <div className="flex items-center justify-center gap-2 text-destructive/60 text-xs font-mono animate-pulse">
               <span className="w-1.5 h-1.5 rounded-full bg-destructive/60 animate-ping" />
-              INITIATING BIRTHDAY PURGE PROTOCOL...
+              INITIATING PURGE PROTOCOL...
             </div>
           </motion.div>
         )}
@@ -281,7 +281,7 @@ export function Chapter3Prank({ onComplete, playPrankRevealSfx }: Props) {
             className="text-center px-8"
           >
             <p className="font-mono text-destructive/80 text-sm uppercase tracking-widest mb-6 animate-pulse">
-              Purging all birthday memories in...
+              Purging all our memories in...
             </p>
             <motion.div
               key={countdown}
@@ -341,7 +341,7 @@ export function Chapter3Prank({ onComplete, playPrankRevealSfx }: Props) {
               style={{ fontSize: 'clamp(1.1rem, 4vw, 2rem)', fontWeight: 800 }}
             >
               <span>🎂</span>
-              <span>HAPPY BIRTHDAY, ANOUSHKA!!</span>
+              <span>HAPPY BOYFRIEND'S DAY!! LOVE</span>
               <span>🎉</span>
             </motion.div>
 
@@ -351,7 +351,7 @@ export function Chapter3Prank({ onComplete, playPrankRevealSfx }: Props) {
               transition={{ delay: 1.5 }}
               className="text-primary-foreground/70 mt-6 serif text-lg"
             >
-              😂 Relax!! Did you really think i forget your b'day?
+              😂 Relax!! Did you really think i forget you?
               <br />
               For a second there... you looked worried 😝
             </motion.p>
